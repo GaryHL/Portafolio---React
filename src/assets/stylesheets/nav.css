@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Poppins:wght@100;200;400;500;700;800&display=swap');
+
+.name{
+    font-weight: 300;
+    font-size:3vh;
+    margin-top:-0.5rem;
+    cursor:pointer;
+    transition:0.2s;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container_nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#fff;
+    padding:2.2rem 2.5rem;
+}
+
+.container_social{
+    display:flex;
+}
+
+.logo_linkedin svg,.logo_git svg{
+    height:4.5vh;
+    width:4.5vh;
+    margin:0vh 4.5vh;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+.menu_hamburguesa{
+    display:flex;
+    flex-direction:column;
+    margin:0.2vh 3vh;
+    cursor:pointer;
+    transition:0.2s;
+    margin-right:-0.5rem
+}
+
+.line1{
+    height:0.4vh;
+    width:8vh;
+    background-color:#fff;
+    margin-bottom:3vh;
+    margin-top:0.2rem;
+}
+
+.line2{
+    height:0.4vh;
+    width:8vh;
+    background-color:#fff;
+}
+.accionables:hover{
+    color:rgb(71, 71, 77);
+    transition:0.2s;
+}
+
+@media all and(min-width:700px){
+    .container_nav{
+        padding:0rem 0rem;
+    }
+}

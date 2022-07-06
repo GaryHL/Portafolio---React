@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Poppins:wght@100;200;400;500;700;800&display=swap');
+
+.container_titular{
+    margin-left:12.5rem;
+    margin-top:2rem;
+}
+.titulo_txt{
+    font-family: 'Nunito Sans', sans-serif;
+    color:white;
+    font-weight: 800;
+    font-size: 7rem;
+}
+.red_line1, .red_line2{
+    background-color: #FF4D5A;
+    width:6rem;
+    height:0.3rem;
+}
+.red_line2{
+    margin-top:1.8rem;
+    margin-left:3rem;
+    height:0.3rem
+}
+.description{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color:white;
+    margin-top:2rem
+}

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import './assets/stylesheets/nav.css';
+import './assets/stylesheets/num_pages.css';
+import './assets/stylesheets/titular.css';
+
+
+
+
+import Nav from './assets/components/Nav'
+import Num_pages from './assets/components/Num_pages'
+import Titular from './assets/components/Titular'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav/>
+      <Num_pages/>
+      <Titular texto="GARY LIMA"
+      description="Front-end developer / future fullstack"/>  
+
     </div>
   );
 }

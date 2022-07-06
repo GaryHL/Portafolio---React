@@ -1,0 +1,19 @@
+.container_num_pages{
+    width:8em;
+    height:80vh;
+    background-color:#2E2E2E;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:absolute;
+    justify-content: center;
+
+}
+.page_home, .page_projects,
+.page_about_me,.page_contact{
+    width:1.5rem;
+    height:0.15rem;
+    background-color:white;
+    margin:1rem;
+    margin-top:-5rem;
+}
