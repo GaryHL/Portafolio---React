@@ -4,7 +4,7 @@ import React from 'react';
 function Nav ()  {
 return (
     <div className="container_nav">
-        <h1 className="name accionables">GARY LIMA</h1>
+        <h1 className="name accionables"><a href="/" className="name_link">GARY LIMA</a></h1>
         <div className="container_social">
             <div className="logo_git accionables"> 
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">

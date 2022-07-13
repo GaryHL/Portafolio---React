@@ -2,27 +2,81 @@
 
 .container_titular{
     margin-left:12.5rem;
-    margin-top:2rem;
+    padding-top:8rem;
+    width:100vh;
+    z-index:1;
+}
+.container_txt_image{
+    display:flex;
+
+}
+
+@keyframes entrada{
+    from{
+        margin-left:-50rem;
+    }
+    to{
+        margin-left:0rem;
+    }
 }
 .titulo_txt{
     font-family: 'Nunito Sans', sans-serif;
     color:white;
     font-weight: 800;
-    font-size: 7rem;
+    font-size: 16.5vh;
+    animation-name:entrada;
+    animation-duration:2.5s;
+    width:100vh;
+    text-shadow: 0px 0px  20px rgb(0, 0, 0);
+    padding-top:7vh;
+    
 }
 .red_line1, .red_line2{
     background-color: #FF4D5A;
     width:6rem;
     height:0.3rem;
+    animation-name:entrada_line;
+    animation-duration:1s;
 }
 .red_line2{
     margin-top:1.8rem;
     margin-left:3rem;
-    height:0.3rem
+    height:0.3rem;
+    animation-name:entrada_line;
+    animation-duration:2.5s;
+}
+@keyframes entrada_line{
+    from{
+        margin-left:-15rem;
+    }
+    to{
+        
+    }
 }
 .description{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 600;
     color:white;
-    margin-top:2rem
+    margin-top:2rem;
+    animation-name:entrada;
+    animation-duration:2s;
+    padding-bottom:25rem;
+}
+.cuadrado_imagen{
+    width:80vh;
+    height:70vh;
+    background-color:#2E2E2E;
+    margin:15vh 100vh;
+    position:absolute;
+    z-index: -0;
+}
+.img_complementaria{
+    position:absolute;
+    margin-top:-100vh;
+    margin-left:100vh;
+    width:80vh;
+    height:70vh;
+    box-shadow:  0px 0px 40px rgb(0, 0, 0);
+    opacity:0.5;
+
 }

@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Poppins:wght@100;200;400;500;700;800&display=swap');
+
+.about_page{
+    width:100vh;
+    box-sizing: 0;
+    margin:0;
+}
+.title_about{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size:6vh;
+    margin-left:5vh;
+    letter-spacing:3vh
+
+}
+.section_1, .section_2, .section_3{
+    width:200vh;
+    height:100vh;
+    justify-content: space-between;
+}
+#section_mod{
+    margin-top:40vh;
+}
+.section_1{
+    background-color:white;
+    display: flex;
+}
+.who_i_am{
+    padding :3vh;
+    display: flex;
+    align-items:center;
+    height:25%;
+}
+.line_1_about{
+    background-color:rgb(51, 51, 51);
+    width:6vh;
+    height:0.5vh;
+}
+.who_i_am_description{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-right: 10rem;
+}
+.who_i_am_description h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size:5vh;
+    padding:5vh 0vh;
+}
+
+.who_i_am_description p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size:3vh;
+
+}
+
+.img_me{
+    margin-top:2rem;
+    width:45vh;
+    height:45vh;
+    box-shadow:  0px 0px 40px rgb(0, 0, 0);
+    opacity:0.8;
+}
+
+
+/* section2  */
+.section_2{
+    background-color:white;
+    margin-top: -3px;
+}
+.hobbies{
+    padding :3vh;
+    display: flex;
+    align-items:center;
+    height:25%;
+}
+.hobbies_cards{
+    display:flex;
+    justify-content: space-around;
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+    width:35vh;
+}
+.card h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size:3.3vh;
+    padding:3vh 0vh;
+}
+.card p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size:2.9vh;
+}
+
+
+.section_3{
+    background-color:white;
+    margin-top: -3px;
+    padding-bottom:10vh;
+}
+.skills1{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.skills_title{
+    padding :3vh;
+    display: flex;
+    align-items:center;
+    height:25%;
+}
+.container-text{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-text h4{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size:2.9vh;
+    letter-spacing: 1vh;
+    margin-left:0.5vh;
+    margin-bottom:0.5vh;
+    
+}
+.container-text h6{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size:2vh;
+    letter-spacing: 0.5vh;
+    margin-left:0.5vh;
+    margin-bottom:-0.5vh;
+    
+}
+.container-text h5{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size:2.4vh;
+    margin-left:0.5vh;
+    margin-bottom:-0.5vh;
+    
+}
+
+.container_skill_min{
+    display:flex;
+    width:100vh;
+    justify-content: center;
+    margin: 5vh 0vh;
+
+}
+.container_skills{
+    display:flex;
+    justify-content: center;
+    margin: 5vh 0vh;
+
+}
+
+.skill_icon{
+    width:7vh;
+    height:7vh;
+    margin-right:1vh
+}
+
+.bar{
+    height:2.5vh;
+    width:20rem;
+    background-color: rgb(249, 249, 249);
+    border-radius:5vh;
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.655);
+
+}
+.progres_bar1{
+    height:2.51vh;
+    width:18rem;
+    background: linear-gradient(335deg, rgba(255,77,90,1) 0%, rgba(89,35,115,1) 47%, rgba(5,11,32,1) 100%);
+    border-radius:5vh;
+    position:relative;
+
+}
+.progres_bar2{
+    height:2.5vh;
+    width:17rem;
+    background: linear-gradient(335deg, rgba(255,77,90,1) 0%, rgba(89,35,115,1) 47%, rgba(5,11,32,1) 100%);
+    border-radius:5vh;
+    position:relative;
+
+}
+.progres_bar3{
+    height:2.5vh;
+    width:6rem;
+    background: linear-gradient(335deg, rgba(255,77,90,1) 0%, rgba(89,35,115,1) 47%, rgba(5,11,32,1) 100%);
+    border-radius:5vh;
+    position:relative;
+
+}
+.progres_bar4{
+    height:2.5vh;
+    width:9rem;
+    background: linear-gradient(335deg, rgba(255,77,90,1) 0%, rgba(89,35,115,1) 47%, rgba(5,11,32,1) 100%);
+    border-radius:5vh;
+    position:relative;
+}
+.progres_bar5{
+    height:2.5vh;
+    width:15.5rem;
+    background: linear-gradient(335deg, rgba(255,77,90,1) 0%, rgba(89,35,115,1) 47%, rgba(5,11,32,1) 100%);
+    border-radius:5vh;
+    position:relative;
+}
+.progres_bar6{
+    height:2.5vh;
+    width:4rem;
+    background: linear-gradient(335deg, rgba(255,77,90,1) 0%, rgba(89,35,115,1) 47%, rgba(5,11,32,1) 100%);
+    border-radius:5vh;
+    position:relative;
+}
+.progres_bar7{
+    height:2.5vh;
+    width:17rem;
+    background: linear-gradient(335deg, rgba(255,77,90,1) 0%, rgba(89,35,115,1) 47%, rgba(5,11,32,1) 100%);
+    border-radius:5vh;
+    position:relative;
+}
+
+
+
+
+.section_4{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size:2.9vh;
+    letter-spacing: 1.5vh;
+    width:200%;
+    color:white;
+    height:30vh;
+    background: linear-gradient(335deg, rgba(255,77,90,1) 0%, rgba(89,35,115,1) 47%, rgba(5,11,32,1) 100%);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}

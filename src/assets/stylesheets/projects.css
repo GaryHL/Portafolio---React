@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Poppins:wght@100;200;400;500;700;800&display=swap');
+
+.projects{
+    background-color:white;
+    margin-top:40vh;
+    height:150vh;
+}
+.select_project{
+    height:50vh;
+    background-color:#E9E9E9;
+}
+.container_date{
+    display:flex;
+    justify-content: space-around;
+}
+.rol,.date,.overview{
+    width:50vh;
+    padding-top:10vh;
+}
+.date_title{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size:2.9vh;
+}
+.date_description{
+    opacity: 0.7;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size:2.5vh;
+}
+.rol{
+    margin-left:15vh;
+}
+
+.container_carrusel{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.flecha_izq{
+
+}
+.cuadrado{
+    width:70vh;
+    height:50vh;
+    background-color:rgb(80, 80, 80);
+    margin:10vh 20vh;
+
+}
+
+
+.cta_buton_project{
+    margin-left: 30vh;
+    padding:3vh 8vh;
+    display: inline-block;
+    letter-spacing: 4px;
+    text-decoration: none;
+    border:0;
+    margin-top:-20rem;
+    z-index: 11;
+    transition:0.5s;
+    cursor:pointer;
+    position:relative;
+    left:8vh;
+    box-shadow:  0px 0px 4px rgb(0, 0, 0);
+
+}
+.cta_buton_project:hover{
+    background: #FF4D5A;
+    box-shadow: 0 0 5px #FF4D5A, 0 0 10px #FF4D5A, 0 0 50px #FF4D5A;
+    transition:0.5s;
+}
+
+

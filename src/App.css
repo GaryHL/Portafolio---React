@@ -5,7 +5,73 @@
 html,body{
   background-color:#2E2E2E;
 }
+::-webkit-scrollbar{
+  fill:transparent;
+}
+
 .app{
   min-height:100vh;
   min-width:100vh;
 }
+a{
+  text-decoration:none;
+  color:rgb(39, 39, 39);
+
+}
+
+.name_link{
+  text-decoration:none;
+  color:white;
+
+}
+.limitador_text{
+  width:1rem;
+}
+.cta_buton{
+  margin-left: 30vh;
+  padding:3vh 8vh;
+  display: inline-block;
+  letter-spacing: 4px;
+    text-decoration: none;
+  position:absolute;
+  border:0;
+  margin-top:-20rem;
+  z-index: 11;
+  transition:0.5s;
+  cursor:pointer;
+
+
+  /* margin-top:-50vh; */
+
+}
+.cta_buton:hover{
+  background: #FF4D5A;
+    box-shadow: 0 0 5px #FF4D5A, 0 0 10px #FF4D5A, 0 0 50px #FF4D5A;
+    transition:0.5s;
+}
+.menu_superior{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  width: 200vh;
+  height: 100vh;
+  position:absolute;
+  z-index: 100;
+  /* margin-top:-100vh; */
+  background-color:black;
+  color:white;
+}
+/* .menu_superior a{
+
+  color:white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 800;
+  font-size:15vh;
+  transition:1s;
+  cursor:pointer;
+}
+.menu_superior a:hover{
+  text-decoration:line-through;
+  font-size:15.5vh;
+  transition:1s;
+} */

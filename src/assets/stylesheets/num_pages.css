@@ -1,5 +1,5 @@
 .container_num_pages{
-    width:8em;
+    width:15vh;
     height:80vh;
     background-color:#2E2E2E;
     display:flex;
@@ -7,13 +7,15 @@
     align-items:center;
     position:absolute;
     justify-content: center;
+    position:fixed;
+    margin-top:10vh;
 
 }
 .page_home, .page_projects,
 .page_about_me,.page_contact{
-    width:1.5rem;
+    width:4.5vh;
     height:0.15rem;
     background-color:white;
-    margin:1rem;
-    margin-top:-5rem;
+    margin:1vh;
+    margin-top:10vh;
 }
